@@ -64,3 +64,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+-> Laravel install (Done)
+
+-> migration (In progress)
+
+-> Admin template install
+
+-> login in admin panel and send otp to mobile number and verify after redirect to dashboard screen
+
+-> create crud(create,update,delete(soft delete)) id, name, email, phone, country, city, state,multiple input address using  jquery clone with proper validation
+
+-> After create new user send email to that user with username, email,phone, password.
+	- validation client and server side both
+
+-> create one user api
+	-forget password with otp
+	- Request parameter
+		user_device_id
+		accesss_token
+	- Response
+		Email
+		phone
+		country name
+		city name
+		state name
+
+User
+ id, name, email, phone, country, city, state, address (Multiple - [many-to-many])
